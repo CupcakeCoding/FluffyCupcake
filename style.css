@@ -1,30 +1,28 @@
-body {
+body
+{
     text-align: center;
-     background-color: black;
-
+}
+.container{
+  background-color: mediumaquamarine;  
+}
+#app {
+    background-color: aliceblue;
 }
 
-h1 {
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
+#myCarousel
+{
+    background-color: red;
 }
 
-#intro{
-    background-color: rgb(182, 220, 238);
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
 }
 
-#origami1{
-   background-color:lightcoral;
-}
-
-#origami2{
-  background-color:lightcoral; 
-}
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
+.carousel-inner p
+{
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
 }

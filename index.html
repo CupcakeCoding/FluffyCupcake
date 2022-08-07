@@ -2,62 +2,83 @@
 <html lang="en">
 
 <head>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="intro">
-        <h1>Origami</h1>
-        <p>Welcome to the world of Arts and Crafts. This page is all about enhancing your creative skills using various
-            origami technics.</p>
-        <h2>Lets get started</h2>
 
-        <div class="line"></div>
-        <!-- Set this link in src "https://en.wikipedia.org/wiki/Origami" that descibes Origami art/ technique-->
-        <iframe width="700" height="620" style="border: 0px;" 
-        src="https://en.wikipedia.org/wiki/Origami">
-        </iframe>
+    <div class="container">
 
-    </section>
-
-    <section id="origami1">
-
-        <div class="line"></div>
-        <h1>Crane</h1>
-        <!-- add the link below https://www.thesprucecrafts.com/traditional-origami-crane-2540790 for making the crane in a href tag 
-            for example, href=" https://www.thesprucecrafts.com/traditional-origami-crane-2540790"      -->
-        <a href="https://www.thesprucecrafts.com/traditional-origami-crane-2540790" target="_blank">
-            <img src="crane.jpg" width="368" height="276">
-        </a>
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/TnYBodnn3x0rNhYb4J9J-hZPjzgOqIRDG7vkSP2WJCI/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/bpWFoLtwz3JGl9i2jM7xajXQLN8pCbMEekad-4FAscI/embed"></iframe>
+        </section>
 
 
-        <h1>Tulip Flower</h1>
-        <!-- add the link below https://www.thesprucecrafts.com/christmas-origami-projects-4147453 for making the tulip_flower in a href tag-->
-        <a href="https://www.thesprucecrafts.com/christmas-origami-projects-4147453" target="_blank">
-            <img src="tulip_flower.jpg" width="368" height="276">
-        </a>
 
-    </section>
-    <section id="origami2">
+        <h2>Click On The Games To Explore</h2>
 
-        <div class="line"></div>
-        <h1>Envelop</h1>
-        <!--add the link below  https://www.thesprucecrafts.com/make-an-easy-origami-envelope-4094705 for making the Envelop in a href tag-->
-        <a href="" target="_blank">
-            <img src="envelop.jpg" width="368" height="276">
-        </a>
+        <h5>This games are bulid in game lab, click on the game to play</h5>
 
-        <h1>modular_box</h1>
-        <!--add the link below https://www.thesprucecrafts.com/modular-origami-cube-box-4082281 for making the modular box in a href tag-->
-        <a href="https://www.thesprucecrafts.com/modular-origami-cube-box-4082281" target="_blank">
-            <img src="modular_box.jpg" width="368" height="276">
-        </a>
+        <div id="myCarousel" class="carousel slide">
+            <center>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://studio.code.org/projects/gamelab/Sdt_OgR8VajkwZ9t45UeVtzMLGiyqhNFJexB9eCe480" target="_blank">
+                            <img src="game1.png">
+                        </a>
+                        <p>Car Racing</p>
+                    </div>
 
-    </section>
+                    <div class="item">
+                        <a href="https://studio.code.org/projects/gamelab/N25kriFEAiBTZwfbYpDjc_qryNjSBhYW-3fOuYRt_SI" target="_blank">
+                            <img src="game2.png">
+                        </a>
+                        <p>Be in space</p>
+                    </div>
+                    
+                      <div class="item">
+                        <a href="https://studio.code.org/projects/playlab/Xoq31TZJRl0W9K95JthlADu6tbI1xGTsVHpOvYsNtuE" target="_blank">
+                            <!--add the source of the image as "game3.PNG"-->
+                            <img src="game3.PNG">
+                        </a>
+                        <p>Bird hunting for pie</p>
+                    </div>
+                    
+                    <div class="item">
+                        <!--Add
+                        "https://studio.code.org/projects/playlab/WzncdAxXTuhs9JIxkX2v6qScTqL5bBzoUdfsqrxF4fI"
+                         in href part  -->
+                        <a href="https://studio.code.org/projects/playlab/WzncdAxXTuhs9JIxkX2v6qScTqL5bBzoUdfsqrxF4fI" target="_blank">
+                           <img src="game4.PNG">
+                        </a>
+                        <p>Password Checker</p>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <!--provide class "glyphicon glyphicon-chevron-right" for the span tag below-->
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </center>
+        </div>
+
+    </div>
 
 </body>
 
